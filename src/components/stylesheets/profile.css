@@ -1,0 +1,48 @@
+.container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color:rgb(230, 230, 248);
+    padding: 20px;
+    width:60%;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  #profile_image{
+      display: block;
+      border-radius: 50%;
+      border: 2px solid white;
+      height: 150px;
+      width:150px;
+      margin:auto;
+  }
+
+  #username{
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+      text-shadow:3px 3px rgb(203, 198, 198);;
+  }
+.heading{
+    font-weight: 650;
+}
+table{
+    width:100%;
+}
+table, th, td {
+    border: 1px solid white;
+    
+}
+table {
+    border-collapse: collapse;
+}
+td{
+    padding: 10px;
+}
+
+@media screen and (max-width:650px) {
+    .container{
+        width:100%;
+        margin: 5px;
+    }
+}
